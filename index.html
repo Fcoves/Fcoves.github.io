@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-</head>
-<body>
-    <h1>¡Hello World!</h1>
+    <link href="./src/css/estilos.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+<body class="imagenFondo">
+    <nav> 
+        <div class="container flex justify-center items-center h-32">
+            <a href="#" class="text-[#edf3f6] hover:text-3xl hover:font-bold text-2xl px-24 opcionesNavbar fondoOscuro">Blog</a>
+            <a href="#" class="text-[#edf3f6] hover:text-3xl hover:font-bold text-2xl px-24 opcionesNavbar fondoOscuro">Projects</a>
+        </div>
+    </nav>
+    <div class="contenedorDescripcion">
+        <div class="imagen">            
+            <img src="./src/assets/foto_perfil.jpg" alt="foto" class="foto">
+        </div>
+        <div class="text-[#edf3f6] fondoOscuro descripciones">
+            <h1 class="nombre">Francisco Coves García</h1>
+            <p class="descripcion">Hi, I'm Paco a code developer with a focus on backend development, but I'm increasingly diving into frontend work to become a full-stack developer.
+            I have a passion for creating projects and love to contribute to the developer community. I will start making proyects bellow in a future 👁️</p>
+        </div>
+    </div>
+    <div class="RedesCurriculum">
+        <a href="https://www.linkedin.com/in/pacocovgar/" target="_blank" class="botonRedes">
+            <img src="src/assets/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Fcoves" target="_blank" class="botonRedes">
+            <img src="src/assets/github.png" alt="GitHub">
+        </a>
+        <a href="src/assets/CVFranciscoCovesGarcia.pdf" download>
+            <button class="curriculum text-[#edf3f6] text-2xl">CURRICULUM</button>
+        </a>
+    </div>
 </body>
 </html>
